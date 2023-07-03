@@ -3,9 +3,15 @@
 
 
 (defn greet [req]
+  (if (= "/" (:uri req))
   {:status  200
-   :body    "Hello, World!"
-   :headers {}})
+   :body  "Hello, World!"
+   :headers {}}
+  {:status 404
+   :body "Page not Found"
+   :headers {}}))
+
+
 
 (defn -main [port]
   (jetty/run-jetty greet
