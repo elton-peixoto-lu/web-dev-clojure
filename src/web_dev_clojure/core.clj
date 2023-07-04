@@ -7,9 +7,13 @@
   {:status  200
    :body  "Hello, World!"
    :headers {}}
-  {:status 404
-   :body "Page not Found"
-   :headers {}}))
+  (if (= "/about" (:uri req))
+    {:status  200
+     :body    "My name is Elton, and i love Clojure s2"
+     :headers {}}
+    {:status  404
+     :body    "Page not Found"
+     :headers {}})))
 
 
 
