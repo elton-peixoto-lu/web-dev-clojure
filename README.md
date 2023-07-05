@@ -1,22 +1,12 @@
 # web-dev-clojure
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
-
+My web clojure study based in course by Eric Normand https://ericnormand.podia.com/view/courses/web-development-in-clojure/680057-default-section/1970652-let-s-get-a-server-up-and-running-in-the-cloud
 ## License
 
-Copyright © 2023 FIXME
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
+To the extent possible under law, the person who associated CC0 with
+this work has waived all copyright and related or neighboring rights
+to the code in this repository.
 
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+See the `LICENSE` file for more information.
